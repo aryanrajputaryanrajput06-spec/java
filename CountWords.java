@@ -1,0 +1,7 @@
+public class CountWords {
+    public static void main(String[] args) {
+        String sentence = "Java is easy to learn";
+        String[] words = sentence.split(" ");
+        System.out.println("Word count: " + words.length);
+    }
+}
